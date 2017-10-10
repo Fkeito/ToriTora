@@ -38,11 +38,11 @@ public class Bird : VRObjectBase {
         {
 
             if (con1 != null) {
-                if (con1.controller.GetPress(SteamVR_Controller.ButtonMask.Trigger))
+                if (con1.controller.GetPress(SteamVR_Controller.ButtonMask.Touchpad))
                 {
                     SetDirection(hand1.transform.position, hand1.transform.forward);
                 }
-                else if (con1.controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
+                else if (con1.controller.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad))
                 {
                     Destroy(tmpDirection);
                     tmpDirection = null;
@@ -54,11 +54,11 @@ public class Bird : VRObjectBase {
                 }
             }
             else if(con2 != null) {
-                if (con2.controller.GetPress(SteamVR_Controller.ButtonMask.Trigger))
+                if (con2.controller.GetPress(SteamVR_Controller.ButtonMask.Touchpad))
                 {
                     SetDirection(hand2.transform.position, hand2.transform.forward);
                 }
-                else if (con2.controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
+                else if (con2.controller.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad))
                 {
                     Destroy(tmpDirection);
                     tmpDirection = null;
@@ -80,6 +80,8 @@ public class Bird : VRObjectBase {
                 tmpDirection = null;
             }
         }
+
+        VR = hand1.transform.parent.gameObject.activeSelf;
     }
 
     void Fly(Vector3 startPos)
