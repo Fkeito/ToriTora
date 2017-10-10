@@ -37,15 +37,37 @@ public class Bird : VRObjectBase {
         if (VR)
         {
 
-            if (con1.controller.GetPressDown(SteamVR_Controller.ButtonMask.Trigger)
-                    && con1.controller.GetPress(SteamVR_Controller.ButtonMask.Touchpad)
-                        && con1 != null){
-                SetFly(hand1.transform.position, hand1.transform.forward);
+            if (con1 != null) {
+                if (con1.controller.GetPress(SteamVR_Controller.ButtonMask.Trigger))
+                {
+                    SetDirection(hand1.transform.position, hand1.transform.forward);
+                }
+                else if (con1.controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
+                {
+                    Destroy(tmpDirection);
+                    tmpDirection = null;
+                }
+                else if (con1.controller.GetPressDown(SteamVR_Controller.ButtonMask.Trigger)
+                    && con1.controller.GetPress(SteamVR_Controller.ButtonMask.Touchpad))
+                {
+                    SetFly(hand1.transform.position, hand1.transform.forward);
+                }
             }
-            else if(con2.controller.GetPressDown(SteamVR_Controller.ButtonMask.Trigger)
-                    && con2.controller.GetPress(SteamVR_Controller.ButtonMask.Touchpad)
-                        && con2 != null){
-                SetFly(hand2.transform.position, hand2.transform.forward);
+            else if(con2 != null) {
+                if (con2.controller.GetPress(SteamVR_Controller.ButtonMask.Trigger))
+                {
+                    SetDirection(hand2.transform.position, hand2.transform.forward);
+                }
+                else if (con2.controller.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
+                {
+                    Destroy(tmpDirection);
+                    tmpDirection = null;
+                }
+                else if (con2.controller.GetPressDown(SteamVR_Controller.ButtonMask.Trigger)
+                    && con2.controller.GetPress(SteamVR_Controller.ButtonMask.Touchpad))
+                {
+                    SetFly(hand2.transform.position, hand2.transform.forward);
+                }
             }
         }
         else
@@ -159,6 +181,22 @@ public class Bird : VRObjectBase {
         if (!flyFlag || inCage) return;
 
         Ray ray = new Ray(startPos, direction);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+        {
+            //Debug.DrawRay(ray.origin, ray.direction * 5,Color.red);
+            //tmpDirection = a.OnDirection(Direction, ray.origin, hit.point);  
+
+            if (tmpDirection)
+            {
+                tmpDirection.transform.position = hit.point;
+                tmpDirection.transform.rotation = Quaternion.LookRotation(hit.normal);
+            }
+            else
+            {
+                tmpDirection = BirdDirection.OnDirection(Direction, hit);
+            }
+        }
     }
 
     void OnCollisionEnter(Collision other)
