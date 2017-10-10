@@ -74,7 +74,8 @@ public class Bird : VRObjectBase {
         }
         else
         {
-            if (Input.GetMouseButtonDown(0) && Input.GetKey(KeyCode.LeftShift)) SetFly();
+            if (Input.GetMouseButtonDown(0) && Input.GetKey(KeyCode.LeftShift)
+                && transform.parent == null) SetFly();
             else if (Input.GetKey(KeyCode.LeftShift)) SetDirection();
             if (Input.GetKeyUp(KeyCode.LeftShift))
             {
@@ -171,7 +172,7 @@ public class Bird : VRObjectBase {
 
             if (tmpDirection)
             {
-                tmpDirection.transform.position = hit.point;
+                tmpDirection.transform.position = hit.point + hit.normal * 0.1f;
                 tmpDirection.transform.rotation = Quaternion.LookRotation(hit.normal);
             }
             else
@@ -193,7 +194,7 @@ public class Bird : VRObjectBase {
 
             if (tmpDirection)
             {
-                tmpDirection.transform.position = hit.point;
+                tmpDirection.transform.position = hit.point + hit.normal;
                 tmpDirection.transform.rotation = Quaternion.LookRotation(hit.normal);
             }
             else
