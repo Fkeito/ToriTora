@@ -54,7 +54,7 @@ public class Bird : VRObjectBase {
                     tmpDirection = null;
                 }
             }
-            else if(con2.controller != null) {
+            if(con2.controller != null) {
                 
                 if (con2.controller.GetPressDown(SteamVR_Controller.ButtonMask.Trigger)
                     && con2.controller.GetPress(SteamVR_Controller.ButtonMask.Touchpad))
