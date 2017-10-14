@@ -38,10 +38,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/UnityVRSettings/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/UnityVRSettings/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -53,6 +53,8 @@
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\Bird.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\BirdDirection.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\ObjectForBird.cs" />
+     <Compile Include="Assets\VRProject\_Individual\ogasawara\Clock\Scripts\Clock.cs" />
+     <Compile Include="Assets\VRProject\_Individual\ogasawara\Medieval_House\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\VRSample\Scripts\Bomb.cs" />
      <Compile Include="Assets\VRSample\Scripts\ControllerDebugSample.cs" />
      <Compile Include="Assets\VRSample\Scripts\Explosion.cs" />
@@ -163,6 +165,7 @@
      <Compile Include="Assets\VRSample\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
      <Compile Include="Assets\VRSample\SteamVR\Scripts\SteamVR_Utils.cs" />
      <None Include="Assets\VRSample\SteamVR\Resources\SteamVR_Fade.shader" />
+     <None Include="Assets\VRProject\_Individual\ogasawara\Medieval_House\Info.txt" />
      <None Include="Assets\VRSample\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
@@ -175,10 +178,10 @@
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/UnityVRSettings/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/UnityVRSettings/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
