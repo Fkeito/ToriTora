@@ -53,6 +53,8 @@
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\Bird.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\BirdDirection.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\ObjectForBird.cs" />
+     <Compile Include="Assets\VRProject\_Individual\hamachu\scripts\BallController.cs" />
+     <Compile Include="Assets\VRProject\_Individual\hamachu\scripts\Chase.cs" />
      <Compile Include="Assets\VRProject\_Individual\ogasawara\Clock\Scripts\Clock.cs" />
      <Compile Include="Assets\VRProject\_Individual\ogasawara\Medieval_House\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\VRSample\Scripts\Bomb.cs" />
