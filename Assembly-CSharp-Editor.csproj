@@ -52,7 +52,7 @@
      <Compile Include="Assets\VRSample\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
      <Compile Include="Assets\VRSample\SteamVR\Editor\SteamVR_Update.cs" />
      <None Include="Assets\VRSample\SteamVR\Resources\SteamVR_Fade.shader" />
-     <None Include="Assets\VRProject\_Individual\ogasawara\Medieval_House\Info.txt" />
+     <None Include="Assets\VRProject\_Individual\ogasawara\furniture\Medieval_House\Info.txt" />
      <None Include="Assets\VRSample\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />

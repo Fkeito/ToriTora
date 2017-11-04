@@ -54,7 +54,10 @@
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\BirdDirection.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\ObjectForBird.cs" />
      <Compile Include="Assets\VRProject\_Individual\ogasawara\Clock\Scripts\Clock.cs" />
-     <Compile Include="Assets\VRProject\_Individual\ogasawara\Medieval_House\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\VRProject\_Individual\ogasawara\Scripts\ButtonControl.cs" />
+     <Compile Include="Assets\VRProject\_Individual\ogasawara\Scripts\Dentaku.cs" />
+     <Compile Include="Assets\VRProject\_Individual\ogasawara\Scripts\Scenemanager.cs" />
+     <Compile Include="Assets\VRProject\_Individual\ogasawara\furniture\Medieval_House\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\VRSample\Scripts\Bomb.cs" />
      <Compile Include="Assets\VRSample\Scripts\ControllerDebugSample.cs" />
      <Compile Include="Assets\VRSample\Scripts\Explosion.cs" />
@@ -165,7 +168,7 @@
      <Compile Include="Assets\VRSample\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
      <Compile Include="Assets\VRSample\SteamVR\Scripts\SteamVR_Utils.cs" />
      <None Include="Assets\VRSample\SteamVR\Resources\SteamVR_Fade.shader" />
-     <None Include="Assets\VRProject\_Individual\ogasawara\Medieval_House\Info.txt" />
+     <None Include="Assets\VRProject\_Individual\ogasawara\furniture\Medieval_House\Info.txt" />
      <None Include="Assets\VRSample\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />

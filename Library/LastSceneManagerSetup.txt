@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/VRProject/_Individual/Keito/VRTest_K.unity
+- path: Assets/VRProject/_Individual/ogasawara/oga.unity
   isLoaded: 1
   isActive: 1
