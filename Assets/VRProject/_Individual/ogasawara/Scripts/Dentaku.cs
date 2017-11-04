@@ -19,20 +19,23 @@ public class Dentaku : MonoBehaviour {
             time0 = true;
             index1 = index;
         }
-        else if (!time1) {
+        else if (!time1)
+        {
             hyozi(Time1, index);
             time1 = true;
             index2 = index;
-        }else if (!time2)
+        }
+        else if (!time2)
         {
             hyozi(Time2, index);
             time2 = true;
             index3 = index;
-        }else if (!time3)
+        }
+        else if (!time3)
         {
             hyozi(Time3, index);
             index4 = index;
-            if (index1 == 1&&index2==0&&index3==2&&index4==5)
+            if (index1 == 1 && index2 == 0 && index3 == 2 && index4 == 5)
             {
                 Debug.Log("正解！");
             }
@@ -40,8 +43,8 @@ public class Dentaku : MonoBehaviour {
             {
                 StartCoroutine("Destroy");
             }
-       }
-        
+        }
+
     }
    
 

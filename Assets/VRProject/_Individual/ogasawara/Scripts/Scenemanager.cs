@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Scenemanager : MonoBehaviour {
     public string buttonTag = "Button";
-
+    public Animator anima;
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
