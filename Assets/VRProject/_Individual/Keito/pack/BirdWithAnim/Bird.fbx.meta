@@ -1,0 +1,2505 @@
+fileFormatVersion: 2
+guid: 1d8d4a0e48b582f489939745ef927deb
+timeCreated: 1510072645
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackClaw.L
+    100002: BackClaw.L_end
+    100004: BackClaw.R
+    100006: BackClaw.R_end
+    100008: BackFinger.L
+    100010: BackFinger.R
+    100012: //RootNode
+    100014: Cube
+    100016: Head
+    100018: Head_end
+    100020: Hip
+    100022: InnerClaw.L
+    100024: InnerClaw.L_end
+    100026: InnerClaw.R
+    100028: InnerClaw.R_end
+    100030: InnerFinger.L
+    100032: InnerFinger.R
+    100034: InnerWing.L
+    100036: InnerWing.R
+    100038: LowerLeg.L
+    100040: LowerLeg.R
+    100042: LowerTail
+    100044: LowerTail_end
+    100046: MiddleClaw.L
+    100048: MiddleClaw.L_end
+    100050: MiddleClaw.R
+    100052: MiddleClaw.R_end
+    100054: MiddleFinger.L
+    100056: MiddleFinger.R
+    100058: Neck
+    100060: NotLeg
+    100062: OuterClaw.L
+    100064: OuterClaw.L_end
+    100066: OuterClaw.R
+    100068: OuterClaw.R_end
+    100070: OuterFinger.L
+    100072: OuterFinger.R
+    100074: OuterWing.L
+    100076: OuterWing.L_end
+    100078: OuterWing.R
+    100080: OuterWing.R_end
+    100082: Stmach
+    100084: UpperLeg.L
+    100086: UpperLeg.R
+    100088: UpperTail
+    100090: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    100092: "\u5186\u67F1"
+    100094: "\u5186\u67F1.001"
+    100096: "\u7403"
+    100098: "\u7403.001"
+    400000: BackClaw.L
+    400002: BackClaw.L_end
+    400004: BackClaw.R
+    400006: BackClaw.R_end
+    400008: BackFinger.L
+    400010: BackFinger.R
+    400012: //RootNode
+    400014: Cube
+    400016: Head
+    400018: Head_end
+    400020: Hip
+    400022: InnerClaw.L
+    400024: InnerClaw.L_end
+    400026: InnerClaw.R
+    400028: InnerClaw.R_end
+    400030: InnerFinger.L
+    400032: InnerFinger.R
+    400034: InnerWing.L
+    400036: InnerWing.R
+    400038: LowerLeg.L
+    400040: LowerLeg.R
+    400042: LowerTail
+    400044: LowerTail_end
+    400046: MiddleClaw.L
+    400048: MiddleClaw.L_end
+    400050: MiddleClaw.R
+    400052: MiddleClaw.R_end
+    400054: MiddleFinger.L
+    400056: MiddleFinger.R
+    400058: Neck
+    400060: NotLeg
+    400062: OuterClaw.L
+    400064: OuterClaw.L_end
+    400066: OuterClaw.R
+    400068: OuterClaw.R_end
+    400070: OuterFinger.L
+    400072: OuterFinger.R
+    400074: OuterWing.L
+    400076: OuterWing.L_end
+    400078: OuterWing.R
+    400080: OuterWing.R_end
+    400082: Stmach
+    400084: UpperLeg.L
+    400086: UpperLeg.R
+    400088: UpperTail
+    400090: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+    400092: "\u5186\u67F1"
+    400094: "\u5186\u67F1.001"
+    400096: "\u7403"
+    400098: "\u7403.001"
+    4300000: Cube
+    4300002: "\u7403"
+    4300004: "\u7403.001"
+    4300006: "\u5186\u67F1.001"
+    4300008: "\u5186\u67F1"
+    7400000: Fly1@Bird
+    7400002: Fly2@Bird
+    7400004: FlyBegin@Bird
+    7400006: FlyEnd@Bird
+    7400008: Idle1To2@Bird
+    7400010: Idle2@Bird
+    7400012: Idle2To1@Bird
+    7400014: Idle3@Bird
+    7400016: Idle@Bird
+    7400018: IdleInCage2@Bird
+    7400020: IdleInCage@Bird
+    7400022: Peck@Bird
+    7400024: Run@Bird
+    7400026: RunL@Bird
+    7400028: RunR@Bird
+    7400030: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|RunR@Bird.001"
+    7400032: Walk@Bird
+    7400034: WalkL@Bird
+    7400036: WalkR@Bird
+    9500000: //RootNode
+    13700000: Cube
+    13700002: "\u5186\u67F1"
+    13700004: "\u5186\u67F1.001"
+    13700006: "\u7403"
+    13700008: "\u7403.001"
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fly1@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|Fly1@Bird"
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fly2@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|Fly2@Bird"
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FlyBegin@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|FlyBegin@Bird"
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FlyEnd@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|FlyEnd@Bird"
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle1To2@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|Idle1To2@Bird"
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle2@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|Idle2@Bird"
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle2To1@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|Idle2To1@Bird"
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle3@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|Idle3@Bird"
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|Idle@Bird"
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IdleInCage2@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|IdleInCage2@Bird"
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IdleInCage@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|IdleInCage@Bird"
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Peck@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|Peck@Bird"
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|Run@Bird"
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RunL@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|RunL@Bird"
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RunR@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|RunR@Bird"
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|Walk@Bird"
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkL@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|WalkL@Bird"
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WalkR@Bird
+      takeName: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2|WalkR@Bird"
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.L/OuterWing.L/OuterWing.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/InnerWing.R/OuterWing.R/OuterWing.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/Stmach/Neck/Head/Head_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/Hip/UpperTail/LowerTail/LowerTail_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/BackFinger.L/BackClaw.L/BackClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/InnerFinger.L/InnerClaw.L/InnerClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/MiddleFinger.L/MiddleClaw.L/MiddleClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.L/LowerLeg.L/OuterFinger.L/OuterClaw.L/OuterClaw.L_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/BackFinger.R/BackClaw.R/BackClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/InnerFinger.R/InnerClaw.R/InnerClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/MiddleFinger.R/MiddleClaw.R/MiddleClaw.R_end"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R"
+        weight: 1
+      - path: "\u30A2\u30FC\u30DE\u30C1\u30E5\u30A2/NotLeg/UpperLeg.R/LowerLeg.R/OuterFinger.R/OuterClaw.R/OuterClaw.R_end"
+        weight: 1
+      - path: "\u5186\u67F1"
+        weight: 1
+      - path: "\u5186\u67F1.001"
+        weight: 1
+      - path: "\u7403"
+        weight: 1
+      - path: "\u7403.001"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

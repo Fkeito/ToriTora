@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CageController : MonoBehaviour {
+public class CageController : VRObjectBase {
 
     public Animator anim;
     private float moveTime = 5f;
@@ -9,7 +9,7 @@ public class CageController : MonoBehaviour {
 
     public GameObject key;
 
-	void Start () {
+    void Start () {
         anim.SetBool("haveBird", true);
 	}
 	
@@ -23,7 +23,7 @@ public class CageController : MonoBehaviour {
         }
 	}
 
-    void SetGlipped(bool isGlipped)
+    public void SetGlipped(bool isGlipped)
     {
         anim.SetBool("isGlipped", isGlipped);
     }
@@ -34,7 +34,12 @@ public class CageController : MonoBehaviour {
         {
             Destroy(key);
             anim.SetBool("haveBird", false);
-            GameObject.Find("Bird").transform.parent = null;
+            GameObject bird = this.gameObject.GetComponentInChildren<Bird>().gameObject;
+            bird.transform.parent = null;
+            bird.GetComponent<Bird>().inCage = false;
+            bird.GetComponent<Bird>().anim.SetBool("inCage", false);
+            bird.GetComponentsInChildren<Collider>()[1].isTrigger = false;
+            bird.GetComponent<Rigidbody>().useGravity = true;
         }
     }
 }

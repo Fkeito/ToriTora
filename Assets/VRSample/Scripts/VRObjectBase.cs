@@ -73,7 +73,7 @@ public abstract class VRObjectBase : MonoBehaviour {
     {
         var collider = GetComponent<Collider>();
         if (collider==null) {
-            Debug.LogError("オブジェクトにColliderを付けてください。");
+            Debug.LogError(gameObject.name+"にColliderを付けてください。");
             return;
         }
 
@@ -128,6 +128,8 @@ public abstract class VRObjectBase : MonoBehaviour {
         else {
             DestroyImmediate(rigidBody);
         }
+
+        GameObject system = GameObject.Find("System");
     }
 
     public virtual void HandHoverUpdate(Hand hand)

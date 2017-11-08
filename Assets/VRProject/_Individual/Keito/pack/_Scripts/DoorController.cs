@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DoorController : MonoBehaviour {
+public class DoorController : VRObjectBase {
+
+    public bool forAnimation;
 
     [Range(0, 3)]
     public int gimmick;
@@ -22,24 +24,34 @@ public class DoorController : MonoBehaviour {
     public Animator anim;
 
 	void Start () {
-        rend1 = light1.GetComponent<Renderer>();
-        rend2 = light2.GetComponent<Renderer>();
-        rend3 = light3.GetComponent<Renderer>();
-        rend1.material = off;
-        rend2.material = off;
-        rend3.material = off;
-    }
-	
-	void Update () {
-        ChangeColor(gimmick);
-
-        if(gimmick == 3)
+        if (forAnimation)
         {
-            if (!anim.GetBool("clear")) anim.SetBool("clear", true);
+            rend1 = light1.GetComponent<Renderer>();
+            rend2 = light2.GetComponent<Renderer>();
+            rend3 = light3.GetComponent<Renderer>();
+            rend1.material = off;
+            rend2.material = off;
+            rend3.material = off;
         }
         else
         {
-            if (anim.GetBool("clear")) anim.SetBool("clear", false);
+            
+        }
+    }
+	
+	void Update () {
+        if (forAnimation)
+        {
+            ChangeColor(gimmick);
+
+            if (gimmick == 3)
+            {
+                if (!anim.GetBool("clear")) anim.SetBool("clear", true);
+            }
+            else
+            {
+                if (anim.GetBool("clear")) anim.SetBool("clear", false);
+            }
         }
 	}
 
@@ -88,7 +100,7 @@ public class DoorController : MonoBehaviour {
         }
     }
 
-    void Pull()
+    public void Pull()
     {
         if (anim.GetBool("pulling")) return;
         anim.SetBool("pulling", true);
