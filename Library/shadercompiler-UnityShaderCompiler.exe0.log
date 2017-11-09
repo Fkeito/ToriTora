@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Base path: C:/Program Files/UnityVRSettings/Editor/Data
 Cmd: getPlatforms
 Cmd: compileSnippet
@@ -16,3 +17,28 @@ Cmd: compileSnippet
   api=4 type=0 insize=5128 outsize=1966 kw=POINT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
 Cmd: compileSnippet
   api=4 type=1 insize=5128 outsize=1790 kw=POINT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+=======
+Base path: C:/Program Files/Unity/Editor/Data
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=911 outsize=377 ok=1
+Cmd: preprocess
+  insize=7234 outsize=2336 ok=1
+Cmd: preprocess
+  insize=1765 outsize=787 ok=1
+Cmd: preprocess
+  error: 1 plat 18 at (33): Unrecognized renderer for #pragma only_renderers: vulkan
+  insize=2520 outsize=881 ok=1
+Cmd: preprocess
+  error: 1 plat 18 at (109): Unrecognized renderer for #pragma only_renderers: vulkan
+  error: 1 plat 18 at (123): Unrecognized renderer for #pragma only_renderers: vulkan
+  insize=4145 outsize=1564 ok=1
+Cmd: preprocess
+  insize=522 outsize=325 ok=1
+Cmd: preprocess
+  insize=846 outsize=454 ok=1
+Cmd: preprocess
+  insize=962 outsize=376 ok=1
+Cmd: preprocess
+  insize=4130 outsize=1261 ok=1
+>>>>>>> 2c399fa0c28b27b8dd3e0ad3077688cc10bfca78
