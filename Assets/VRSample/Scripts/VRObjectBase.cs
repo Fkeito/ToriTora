@@ -17,6 +17,10 @@ public abstract class VRObjectBase : MonoBehaviour {
     [SerializeField]
     private float Mass;
 
+
+    [SerializeField]
+    private string ObjectTag="VRItem";
+
     //掴んだら起こるイベント
     [SerializeField]
     private UnityEvent onPickUp;
@@ -82,7 +86,8 @@ public abstract class VRObjectBase : MonoBehaviour {
 
         if (VRObjectMode != VRObjectMode.NeverMove)
         {
-            transform.tag = "VRItem";
+            if (ObjectTag == "") { transform.tag = "VRItem"; }
+            else { transform.tag = ObjectTag; }
 
             if (rigidBody == null)
             {
@@ -160,6 +165,7 @@ public abstract class VRObjectBase : MonoBehaviour {
     {
         return this.VRObjectMode;
     }
+
     public void SetVRObjectMode(VRObjectMode mode)
     {
         this.VRObjectMode = mode;
