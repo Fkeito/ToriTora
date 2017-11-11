@@ -1,13 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Dentaku : MonoBehaviour {
+
+public class Dentaku : VRObjectBase {
     public GameObject Time0, Time1, Time2, Time3;
     private bool time0,time1, time2, time3;
     public Material[] materials;
     public static Dentaku dentaku;
     int index1,index2,index3,index4;
-    
+    private AudioSource sound01;
+    private AudioSource sound02;
+
+    void Start()
+    {
+        AudioSource[] audioSources = GetComponents<AudioSource>();
+        sound01 = audioSources[0];
+        sound02 = audioSources[1];
+    }
+
     void Awake() {
         dentaku = this;
     }
@@ -38,10 +48,12 @@ public class Dentaku : MonoBehaviour {
             if (index1 == 1 && index2 == 0 && index3 == 2 && index4 == 5)
             {
                 Debug.Log("正解！");
+                sound01.PlayOneShot(sound01.clip);
             }
             else
             {
                 StartCoroutine("Destroy");
+                sound02.PlayOneShot(sound02.clip);
             }
         }
 
@@ -63,4 +75,5 @@ public class Dentaku : MonoBehaviour {
   public void hyozi(GameObject obj,int index) {
         obj.GetComponent<MeshRenderer>().material = materials[index];
     }
+ 
 }
