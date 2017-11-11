@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/VRProject/_Individual/hamachu/hamachu.unity
+=======
+- path: Assets/VRProject/Scenes/Main.unity
+>>>>>>> 48c43804fea6115620a4cf5cb9f65c4676518244
   isLoaded: 1
   isActive: 1

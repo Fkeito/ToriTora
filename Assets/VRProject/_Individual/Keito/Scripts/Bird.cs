@@ -3,13 +3,15 @@ using System.Collections;
 using Valve.VR.InteractionSystem;
 public class Bird : VRObjectBase {
 
-    public Camera mainCamera;
-    public GameObject hand1,hand2;
+    [SerializeField]
+    private Camera mainCamera;
+    [SerializeField]
+    private GameObject hand1,hand2;
     private Hand con1,con2;
 
     private bool VR = false;
 
-    private bool inCage = true;//鳥が籠の中にいるか
+    public bool inCage = true;//鳥が籠の中にいるか
     private bool flyFlag = true;//鳥が飛べるか
     private bool isFly = false;//鳥が飛んでいるか
     private bool isFlyBack = false;//鳥が戻ってきてるか
@@ -18,8 +20,11 @@ public class Bird : VRObjectBase {
     private VRObjectMode objMode;//持ってきたいオブジェクトのモード
     private Vector3 direction;//飛行の中心軸
 
-    public GameObject Direction;
+    [SerializeField]
+    private GameObject circle;
     private GameObject tmpDirection;
+
+    public Animator anim;
 
     void Start()
     {
@@ -29,7 +34,6 @@ public class Bird : VRObjectBase {
             con1 = hand1.GetComponent<Hand>();
             con2 = hand2.GetComponent<Hand>();
         }
-        inCage = false;
     }
 
     void Update()
@@ -95,6 +99,8 @@ public class Bird : VRObjectBase {
 
         isFly = true;
         flyFlag = false;
+
+        anim.SetBool("isFlying", true);
     }
     void FlyBack()
     {
@@ -104,6 +110,8 @@ public class Bird : VRObjectBase {
         Rigidbody rigidbody = GetComponent<Rigidbody>();
         rigidbody.velocity = direction * 5;
         isFlyBack = true;
+
+        anim.SetBool("isFlyingBack", true);
 
         Invoke("FinishFly", 3f);
     }
@@ -154,6 +162,9 @@ public class Bird : VRObjectBase {
         rigidBody.velocity *= 0.5f;
         rigidBody.useGravity = true;
 
+        anim.SetBool("isFlying", false);
+        anim.SetBool("isFlyingBack", false);
+
         obj = null;
         objMode = VRObjectMode.None;
         direction = Vector3.zero;
@@ -177,7 +188,7 @@ public class Bird : VRObjectBase {
             }
             else
             {
-                tmpDirection = BirdDirection.OnDirection(Direction, hit);
+                tmpDirection = BirdDirection.OnDirection(circle, hit);
             }
         }
     }
@@ -199,9 +210,16 @@ public class Bird : VRObjectBase {
             }
             else
             {
-                tmpDirection = BirdDirection.OnDirection(Direction, hit);
+                tmpDirection = BirdDirection.OnDirection(circle, hit);
             }
         }
+    }
+
+    void SetForward()
+    {
+        Vector3 tmpForward = this.transform.forward;
+        tmpForward.y *= 0;
+        this.transform.forward = tmpForward.normalized;
     }
 
     void OnCollisionEnter(Collision other)
@@ -238,6 +256,7 @@ public class Bird : VRObjectBase {
         {
             if (other.gameObject.CompareTag("Player"))
             {
+                SetForward();
                 FinishFly();
                 isFlyBack = false;
             }
