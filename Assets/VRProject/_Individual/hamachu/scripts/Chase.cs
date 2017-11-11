@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Diagnostics;
+using System.Collections.Specialized;
+using System.Security.Cryptography;
 
-public class Chase : VRObjectBase {
+public class Chase : MonoBehaviour {
 
     //public Transform target;//追いかける対象-オブジェクトをインスペクタから登録できるように
     private float speed;//移動スピード
@@ -21,14 +24,16 @@ public class Chase : VRObjectBase {
     {
         if (other.tag == "Metal")
         {
-            Vector3 vec = this.transform.position - other.transform.position;
+            Vector3 vec = -this.transform.position + other.transform.position;
             float dis = vec.magnitude;
             //targetの方に少しずつ向きが変わる
-            // other.transform.rotation = Quaternion.Slerp(other.transform.rotation, Quaternion.LookRotation(this.position - other.transform.position), 0.3f);
-            //other.transform.rotation = Quaternion.LookRotation(this.transform.position - other.transform.position);
+             //other.transform.rotation = Quaternion.Slerp(other.transform.rotation, Quaternion.LookRotation(this.position - other.transform.position), 0.3f);
+             //other.transform.rotation = Quaternion.LookRotation(this.transform.position - other.transform.position);
             //targetに向かって進む
             speed = 0.2f / dis;
-            other.transform.position += vec * speed;
+            //other.transform.position += vec * speed;
+            other.GetComponent<Rigidbody>().AddForce(speed * vec.normalized);
+
         }
     }
 
