@@ -28,12 +28,14 @@ public class Bird : VRObjectBase {
 
     void Start()
     {
+        anim.SetBool("inCage", false);
         if (hand1.transform.parent.gameObject.activeSelf)
         {
             VR = true;
             con1 = hand1.GetComponent<Hand>();
             con2 = hand2.GetComponent<Hand>();
         }
+
     }
 
     void Update()
