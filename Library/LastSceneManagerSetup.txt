@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/VRProject/_Individual/Ryous/Ryous_Test.unity
-=======
 - path: Assets/VRProject/_Individual/Keito/RoomDemo.unity
->>>>>>> 20039fd35980778afd6e7f1bbcc705857b0d2ab0
   isLoaded: 1
   isActive: 1
