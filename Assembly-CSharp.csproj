@@ -50,9 +50,16 @@
      <Compile Include="Assets\Gimmick\Scripts\CMObject.cs" />
      <Compile Include="Assets\Gimmick\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Gimmick\Scripts\keyscript.cs" />
+     <Compile Include="Assets\HamaGimmickGoal.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\Bird.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\BirdDirection.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\ObjectForBird.cs" />
+     <Compile Include="Assets\VRProject\_Individual\Keito\pack\_Scripts\CageController.cs" />
+     <Compile Include="Assets\VRProject\_Individual\Keito\pack\_Scripts\DoorController.cs" />
+     <Compile Include="Assets\VRProject\_Individual\Keito\pack\_Scripts\SecurityCameraController.cs" />
+     <Compile Include="Assets\VRProject\_Individual\Keito\pack\_Scripts\StateController.cs" />
+     <Compile Include="Assets\VRProject\_Individual\hamachu\scripts\BallController.cs" />
+     <Compile Include="Assets\VRProject\_Individual\hamachu\scripts\Chase.cs" />
      <Compile Include="Assets\VRProject\_Individual\ogasawara\Clock\Scripts\Clock.cs" />
      <Compile Include="Assets\VRProject\_Individual\ogasawara\Scripts\ButtonControl.cs" />
      <Compile Include="Assets\VRProject\_Individual\ogasawara\Scripts\Dentaku.cs" />
