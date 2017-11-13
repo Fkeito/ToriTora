@@ -8,7 +8,7 @@ public class Dest : MonoBehaviour {
 
   void OnCollisionEnter(Collision col) {
         
-        Instantiate(haretu,new Vector3(-4,0.5f,14.5f),new Quaternion());
+        Instantiate(haretu,new Vector3(-3,1,14),new Quaternion());
        Destroy(this.gameObject);
     }
 	
