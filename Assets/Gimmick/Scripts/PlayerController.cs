@@ -11,14 +11,14 @@ public class PlayerController : MonoBehaviour {
 	void Start () {
         mainCam = Camera.main;
 	}
-	
-	void Update () {
+
+    void Update()
+    {
         Rotate((int)Input.GetAxisRaw("Horizontal"));
         if (Input.GetKeyDown(KeyCode.Mouse0)) CheckOb();
         if (moveFlag) MoveOb(moveOb);
+    }
 
-        
-	}
 
     void Rotate(int rot)
     {
