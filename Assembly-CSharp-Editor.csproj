@@ -55,6 +55,7 @@
      <None Include="Assets\VRProject\_Individual\ogasawara\Medieval_House\Info.txt" />
      <None Include="Assets\VRSample\SteamVR\Resources\SteamVR_ClearAll.shader" />
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+     <None Include="Assets\VRProject\_Individual\Ryous\Rocklynn Productions - Water Splash Pack\Read me.txt" />
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
      <None Include="Assets\Gimmick\Models\Butterfly (Animated)\Butterfly (Animated).txt" />
      <None Include="Assets\VRSample\SteamVR\Resources\SteamVR_SphericalProjection.shader" />

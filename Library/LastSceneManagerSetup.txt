@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/VRProject/_Individual/Keito/BirdIdleMove.unity
+- path: Assets/VRProject/_Individual/Keito/RoomDemo.unity
   isLoaded: 1
   isActive: 1
