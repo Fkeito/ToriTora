@@ -28,7 +28,6 @@ public class Bird : VRObjectBase {
 
     void Start()
     {
-        anim.SetBool("inCage", false);
         if (hand1.transform.parent.gameObject.activeSelf)
         {
             VR = true;
