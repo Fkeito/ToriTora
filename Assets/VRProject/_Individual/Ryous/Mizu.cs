@@ -13,12 +13,12 @@ public class Mizu : MonoBehaviour {
 }
 
 // Update is called once per frame
-   private  void OnCollisionEnter(Collision collision)
+   private  void OnTriggerEnter(Collider collision)
     {
        if (collision.gameObject.name=="mizuhu-senn")
      {
       
-           var obj=(GameObject)Instantiate(explosionParticle, new Vector3(1, 4, 14), new Quaternion());
+           var obj=(GameObject)Instantiate(explosionParticle, new Vector3(1, 3, -4), new Quaternion());
            
         
 
