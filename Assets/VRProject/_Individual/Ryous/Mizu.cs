@@ -5,7 +5,7 @@ public class Mizu : MonoBehaviour {
 
     // Use this for initialization
     public GameObject explosionParticle;
-    public GameObject HUU;
+ 
     [SerializeField] Transform basyosyo;
 	void Start () {
 
@@ -13,7 +13,7 @@ public class Mizu : MonoBehaviour {
 }
 
 // Update is called once per frame
-   private  void OnTriggerEnter(Collider collision)
+   private  void OnCollisionEnter(Collision collision)
     {
        if (collision.gameObject.name=="mizuhu-senn")
      {
@@ -22,7 +22,7 @@ public class Mizu : MonoBehaviour {
            
         
 
-            Destroy(HUU);
+          
             Destroy(gameObject);
             
             }

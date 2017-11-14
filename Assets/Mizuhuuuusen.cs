@@ -8,10 +8,14 @@ public class Mizuhuuuusen : VRObjectBase {
 
     public void Caught()
     {
+        GetComponent<Collider>().isTrigger=true;
         Destroy(this.gameObject.GetComponent<Animator>());
         this.name = "mizuhu-senn";
     }
-
+    public void Thrown()
+    {
+        GetComponent<Collider>().isTrigger = false;
+    }
     void OnCollisionEnter(Collision col)
     {
 
