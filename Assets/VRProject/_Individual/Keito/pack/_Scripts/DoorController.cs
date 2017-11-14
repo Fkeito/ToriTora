@@ -104,6 +104,7 @@ public class DoorController : VRObjectBase {
     {
         if (anim.GetBool("pulling")) return;
         anim.SetBool("pulling", true);
+        EndingManager.endingManager.DoorOpen();
     }
 
     public void Clear()
