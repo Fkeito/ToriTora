@@ -73,18 +73,24 @@ public class BirdMove : MonoBehaviour
 
                 
                 this.GetComponent<Rigidbody>().useGravity = false;
+                this.GetComponent<Rigidbody>().velocity = Vector3.zero;
                 this.GetComponentsInChildren<Collider>()[1].isTrigger = true;
 
             }
         }
         else
         {
-            Debug.Log((int)(Time.deltaTime*1000));
-
             moveFlag = false;
-            if((int)(time* 1000) % 10 == 1)
+            if (anim.GetBool("Action")) anim.SetBool("Action", false);
+            if (anim.GetBool("isPecking")) anim.SetBool("isPecking", false);
+
+            if (time > 5 && time < 6 && stopTime > 10)
             {
                 anim.SetBool("Action", true);
+            }
+            else if(time > 8 && time < 9 && stopTime > 15)
+            {
+                anim.SetBool("isPecking", true);
             }
         }
     }
