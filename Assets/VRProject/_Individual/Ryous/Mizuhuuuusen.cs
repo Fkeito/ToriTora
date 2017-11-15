@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
+using UnityStandardAssets;
 
 public class Mizuhuuuusen : VRObjectBase {
 
