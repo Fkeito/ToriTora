@@ -21,7 +21,7 @@ public class Mizuhuuuusen : VRObjectBase {
     void OnCollisionEnter(Collision col)
     {
 
-        Instantiate(haretu, col.contacts[0].point, new Quaternion());
+        Instantiate(haretu, col.contacts[0].point, Quaternion.Euler(-90,0,0));
         Destroy(this.gameObject);
     }
 }
