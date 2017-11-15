@@ -1,10 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
+using Valve.VR.InteractionSystem;
 
 public class EndingManager :VRObjectBase {
     public static EndingManager endingManager;
     private bool DoorOpened;
     private bool HappyEnd;
+    [SerializeField] private string EndSceneName;
+    [SerializeField] private Camera PlayerCamera;
+    [SerializeField] private Hand hand1, hand2;
     private void Start()
     {
         endingManager = this;
@@ -34,12 +39,9 @@ public class EndingManager :VRObjectBase {
     }
     public void End() {
         if (!DoorOpened) return;
-        if (HappyEnd)
-        {
-            Debug.Log("HappyEnd!!");
-        }
-        else {
-            Debug.Log("BadEnd!!");
-        }
+        SceneManager.LoadScene(EndSceneName, LoadSceneMode.Additive);
+        PlayerCamera.cullingMask = 7;
+        hand1.hoverLayerMask = 7;
+        hand2.hoverLayerMask = 7;
     }
 }
