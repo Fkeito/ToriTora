@@ -6,7 +6,7 @@ public class DoorController : VRObjectBase {
     public bool forAnimation;
 
     [Range(0, 3)]
-    private int gimmick;
+    public int gimmick;
 
     public GameObject light1;
     public GameObject light2;
