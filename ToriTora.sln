@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToriTora.Plugins", "ToriTora.Plugins.csproj", "{3AC1E062-1D0F-9741-F0F5-B1C3EF242B16}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToriTora", "ToriTora.csproj", "{CDADE543-AECA-E427-A5FA-04AFFB097428}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToriTora.Editor", "ToriTora.Editor.csproj", "{FF022A7F-F980-6A38-EADD-60013EBE3E31}"
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3AC1E062-1D0F-9741-F0F5-B1C3EF242B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AC1E062-1D0F-9741-F0F5-B1C3EF242B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AC1E062-1D0F-9741-F0F5-B1C3EF242B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AC1E062-1D0F-9741-F0F5-B1C3EF242B16}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CDADE543-AECA-E427-A5FA-04AFFB097428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CDADE543-AECA-E427-A5FA-04AFFB097428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDADE543-AECA-E427-A5FA-04AFFB097428}.Release|Any CPU.ActiveCfg = Release|Any CPU
