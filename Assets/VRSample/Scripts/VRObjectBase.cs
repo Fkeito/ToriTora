@@ -21,6 +21,9 @@ public abstract class VRObjectBase : MonoBehaviour {
     [SerializeField]
     private string ObjectTag="VRItem";
 
+    [SerializeField]
+    private bool Respawn=false;
+
     //掴んだら起こるイベント
     [SerializeField]
     private UnityEvent onPickUp;
@@ -44,6 +47,8 @@ public abstract class VRObjectBase : MonoBehaviour {
     //ディタッチしたら呼ばれるイベント
     [SerializeField]
     private UnityEvent onDetachedFromHand;
+
+    private Transform StartTransform;
 
     public Rigidbody rigidBody { get; set; }
 
@@ -75,6 +80,8 @@ public abstract class VRObjectBase : MonoBehaviour {
     
     public virtual void Awake()
     {
+        StartTransform = transform;
+
         var collider = GetComponent<Collider>();
         if (collider==null) {
             Debug.LogError(gameObject.name+"にColliderを付けてください。");
@@ -135,6 +142,18 @@ public abstract class VRObjectBase : MonoBehaviour {
         }
 
         GameObject system = GameObject.Find("System");
+    }
+
+    public virtual void LateUpdate() {
+        if (Respawn)
+        {
+            if (transform.position.y < -10) {
+                rigidBody.velocity = new Vector3();
+                rigidBody.angularVelocity = new Vector3();
+                transform.position = StartTransform.position;
+                transform.rotation = StartTransform.rotation;
+            }
+        }
     }
 
     public virtual void HandHoverUpdate(Hand hand)
