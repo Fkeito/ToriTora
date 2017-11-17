@@ -46,7 +46,7 @@ public class Dentaku : VRObjectBase {
         {
             hyozi(Time3, index);
             index4 = index;
-            if (index1 == 3 && index2 ==7 && index3 == 0 && index4 == 3)
+            if (index1 == 3 && index2 ==4 && index3 == 0 && index4 == 8)
             {
                 DoorController.door.Clear();
                 sound01.PlayOneShot(sound01.clip);
