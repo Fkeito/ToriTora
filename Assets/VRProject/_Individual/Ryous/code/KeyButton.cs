@@ -8,8 +8,9 @@ public class KeyButton : VRObjectBase {
     // Use this for initialization
     void Start () {
         animator = GetComponent<Animator>();
+        clear = false;
 	}
-
+    private bool clear;
     public override void HandHoverUpdate(Hand hand)
     {
         base.HandHoverUpdate(hand);
@@ -61,9 +62,10 @@ public class KeyButton : VRObjectBase {
             }*/
      public  void Unlock()
      {
-        AudioManager.Main.PlayNewSound("clock-chimes-daniel_simon");
-        DoorController.door.Clear();
+        if (clear) return;
 
+        DoorController.door.Clear();
+        clear = true;
      }
 }
 
