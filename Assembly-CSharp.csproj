@@ -108,11 +108,11 @@
      <Compile Include="Assets\VRProject\_Individual\Ryous\kieruyo.cs" />
      <Compile Include="Assets\VRProject\_Individual\hamachu\scripts\BallController.cs" />
      <Compile Include="Assets\VRProject\_Individual\hamachu\scripts\Chase.cs" />
-     <Compile Include="Assets\VRProject\_Individual\ogasawara\Clock\Scripts\Clock.cs" />
      <Compile Include="Assets\VRProject\_Individual\ogasawara\Scripts\ButtonControl.cs" />
      <Compile Include="Assets\VRProject\_Individual\ogasawara\Scripts\Dentaku.cs" />
      <Compile Include="Assets\VRProject\_Individual\ogasawara\Scripts\Scenemanager.cs" />
      <Compile Include="Assets\VRProject\_Individual\ogasawara\Scripts\buttonstatecontroller.cs" />
+     <Compile Include="Assets\VRProject\_Individual\ogasawara\furniture\Clock\Scripts\Clock.cs" />
      <Compile Include="Assets\VRProject\_Individual\ogasawara\furniture\Medieval_House\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\VRSample\Scripts\Bomb.cs" />
      <Compile Include="Assets\VRSample\Scripts\ControllerDebugSample.cs" />
@@ -332,7 +332,7 @@
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
-     <None Include="Assets\VRProject\_Individual\ogasawara\Ornamental Flower Set\Shaders\Transparent-BumpSpecNoCull.shader" />
+     <None Include="Assets\VRProject\_Individual\ogasawara\furniture\Ornamental Flower Set\Shaders\Transparent-BumpSpecNoCull.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
