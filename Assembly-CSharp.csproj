@@ -56,11 +56,13 @@
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\Bird.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\BirdDirection.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\BirdMove.cs" />
+     <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\FloorController.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\Scripts\ObjectForBird.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\pack\_Scripts\CageController.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\pack\_Scripts\DoorController.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\pack\_Scripts\SecurityCameraController.cs" />
      <Compile Include="Assets\VRProject\_Individual\Keito\pack\_Scripts\StateController.cs" />
+     <Compile Include="Assets\VRProject\_Individual\Keito\pack\_Scripts\balloon.cs" />
      <Compile Include="Assets\VRProject\_Individual\Ryous\Inst.cs" />
      <Compile Include="Assets\VRProject\_Individual\Ryous\KeyButton.cs" />
      <Compile Include="Assets\VRProject\_Individual\Ryous\Mizu.cs" />

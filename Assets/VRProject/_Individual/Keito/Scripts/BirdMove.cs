@@ -5,6 +5,9 @@ public class BirdMove : MonoBehaviour
 {
 
     [SerializeField]
+    private bool start;
+
+    [SerializeField]
     private Vector3[] movePoint;
 
     private Vector3 targetPoint;
