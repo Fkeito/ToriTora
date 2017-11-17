@@ -45,7 +45,7 @@ public class Dentaku : VRObjectBase {
         {
             hyozi(Time3, index);
             index4 = index;
-            if (index1 == 1 && index2 == 0 && index3 == 2 && index4 == 5)
+            if (index1 == 4 && index2 == 0 && index3 == 3 && index4 == 7)
             {
                 Debug.Log("正解！");
                 sound01.PlayOneShot(sound01.clip);
