@@ -7,11 +7,11 @@ public class ButtonControl : VRObjectBase
     public int index;
     public Animator anima;
 
-    /* public void OnUserAction()
+     public void OnUserAction()
      {
          Dentaku.dentaku.Pull(index);
          anima.SetBool("Push", true);
-     }*/
+     }
 
     public override void HandHoverUpdate(Hand hand)
     {
