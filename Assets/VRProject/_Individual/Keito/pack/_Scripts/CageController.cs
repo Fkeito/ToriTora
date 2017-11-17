@@ -39,7 +39,9 @@ public class CageController : VRObjectBase {
             bird.GetComponent<Bird>().inCage = false;
             bird.GetComponent<Bird>().anim.SetBool("inCage", false);
             bird.GetComponentsInChildren<Collider>()[1].isTrigger = false;
-            bird.GetComponent<Rigidbody>().useGravity = true;
+            var rigid = bird.GetComponent<Rigidbody>();
+            rigid.useGravity = true;
+            rigid.constraints = RigidbodyConstraints.FreezeRotation;
         }
     }
 }

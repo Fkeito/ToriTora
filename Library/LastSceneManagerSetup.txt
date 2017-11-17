@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/VRProject/_Individual/ogasawara/oga.unity
+=======
+- path: Assets/VRProject/Scenes/EndingScene.unity
+>>>>>>> a38a0cd2df1b97d8768e572636a6488bcfbd3339
   isLoaded: 1
   isActive: 1

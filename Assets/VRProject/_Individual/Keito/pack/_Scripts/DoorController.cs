@@ -6,7 +6,7 @@ public class DoorController : VRObjectBase {
     public bool forAnimation;
 
     [Range(0, 3)]
-    public int gimmick;
+    private int gimmick;
 
     public GameObject light1;
     public GameObject light2;
@@ -104,5 +104,15 @@ public class DoorController : VRObjectBase {
     {
         if (anim.GetBool("pulling")) return;
         anim.SetBool("pulling", true);
+        EndingManager.endingManager.DoorOpen();
+    }
+
+    public void Clear()
+    {
+        gimmick++;
+    }
+    public void Reset()
+    {
+        gimmick--;
     }
 }

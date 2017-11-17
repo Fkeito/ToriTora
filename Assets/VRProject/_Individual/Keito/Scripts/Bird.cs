@@ -4,6 +4,7 @@ using Valve.VR.InteractionSystem;
 public class Bird : VRObjectBase {
 
     [SerializeField]
+    private Camera VRCamera, NotVRCamera;
     private Camera mainCamera;
     [SerializeField]
     private GameObject hand1,hand2;
@@ -33,7 +34,13 @@ public class Bird : VRObjectBase {
             VR = true;
             con1 = hand1.GetComponent<Hand>();
             con2 = hand2.GetComponent<Hand>();
+            mainCamera = VRCamera;
         }
+        else
+        {
+            mainCamera = NotVRCamera;
+        }
+
     }
 
     void Update()
@@ -88,7 +95,18 @@ public class Bird : VRObjectBase {
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.R)) VR = hand1.transform.parent.gameObject.activeSelf;
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            VR = hand1.transform.parent.gameObject.activeSelf;
+            if (VR)
+            {
+                mainCamera = VRCamera;
+            }
+            else
+            {
+                mainCamera = NotVRCamera;
+            }
+        }
     }
 
     void Fly(Vector3 startPos)
