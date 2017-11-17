@@ -1,2 +1,215 @@
-Base path: C:/Program Files/Unity/Editor/Data
+Base path: C:/Program Files/Unity_5_4_0f3/Editor/Data
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=8687 outsize=2135 ok=1
+Cmd: preprocess
+  insize=11308 outsize=700 ok=1
+Cmd: preprocess
+  insize=1461 outsize=493 ok=1
+Cmd: preprocess
+  insize=963 outsize=394 ok=1
+Cmd: preprocess
+  insize=452 outsize=452 ok=1
+Cmd: preprocess
+  insize=1683 outsize=2324 ok=1
+Cmd: preprocess
+  insize=1137 outsize=433 ok=1
+Cmd: preprocess
+  insize=7416 outsize=2399 ok=1
+Cmd: preprocess
+  insize=9910 outsize=837 ok=1
+Cmd: preprocess
+  insize=1697 outsize=351 ok=1
+Cmd: preprocess
+  insize=898 outsize=350 ok=1
+Cmd: preprocess
+  insize=983 outsize=309 ok=1
+Cmd: preprocess
+  insize=4398 outsize=1114 ok=1
+Cmd: preprocess
+  insize=1991 outsize=491 ok=1
+Cmd: preprocess
+  insize=1308 outsize=407 ok=1
+Cmd: preprocess
+  insize=3680 outsize=673 ok=1
+Cmd: preprocess
+  insize=1518 outsize=2268 ok=1
+Cmd: preprocess
+  insize=1223 outsize=404 ok=1
+Cmd: preprocess
+  insize=1844 outsize=816 ok=1
+Cmd: preprocess
+  insize=6790 outsize=827 ok=1
+Cmd: preprocess
+  insize=1157 outsize=308 ok=1
+Cmd: preprocess
+  insize=13365 outsize=2743 ok=1
+Cmd: preprocess
+  insize=1097 outsize=1052 ok=1
+Cmd: preprocess
+  insize=2527 outsize=790 ok=1
+Cmd: preprocess
+  insize=940 outsize=295 ok=1
+Cmd: preprocess
+  insize=1379 outsize=387 ok=1
+Cmd: preprocess
+  insize=1431 outsize=348 ok=1
+Cmd: preprocess
+  insize=1230 outsize=267 ok=1
+Cmd: preprocess
+  insize=1406 outsize=348 ok=1
+Cmd: preprocess
+  insize=1256 outsize=322 ok=1
+Cmd: preprocess
+  insize=2328 outsize=648 ok=1
+Cmd: preprocess
+  error: 1 plat 18 at (33): Unrecognized renderer for #pragma only_renderers: vulkan
+  insize=2607 outsize=919 ok=1
+Cmd: preprocess
+  insize=954 outsize=269 ok=1
+Cmd: preprocess
+  insize=674 outsize=320 ok=1
+Cmd: preprocess
+  insize=6423 outsize=1035 ok=1
+Cmd: preprocess
+  insize=33400 outsize=269 ok=1
+Cmd: preprocess
+  insize=1219 outsize=261 ok=1
+Cmd: preprocess
+  insize=4488 outsize=535 ok=1
+Cmd: preprocess
+  insize=1050 outsize=267 ok=1
+Cmd: preprocess
+  insize=4990 outsize=1857 ok=1
+Cmd: preprocess
+  error: 1 plat 18 at (109): Unrecognized renderer for #pragma only_renderers: vulkan
+  error: 1 plat 18 at (123): Unrecognized renderer for #pragma only_renderers: vulkan
+  insize=4274 outsize=1614 ok=1
+Cmd: preprocess
+  insize=13303 outsize=1949 ok=1
+Cmd: preprocess
+  insize=1021 outsize=353 ok=1
+Cmd: preprocess
+  insize=12498 outsize=2620 ok=1
+Cmd: preprocess
+  insize=6260 outsize=773 ok=1
+Cmd: preprocess
+  insize=2823 outsize=802 ok=1
+Cmd: preprocess
+  insize=11175 outsize=2600 ok=1
+Cmd: preprocess
+  insize=2593 outsize=1205 ok=1
+Cmd: preprocess
+  insize=12909 outsize=2439 ok=1
+Cmd: preprocess
+  insize=2006 outsize=463 ok=1
+Cmd: preprocess
+  insize=1423 outsize=670 ok=1
+Cmd: preprocess
+  insize=553 outsize=341 ok=1
+Cmd: preprocess
+  insize=1599 outsize=295 ok=1
+Cmd: preprocess
+  insize=24901 outsize=4335 ok=1
+Cmd: preprocess
+  insize=4094 outsize=562 ok=1
+Cmd: preprocess
+  insize=1760 outsize=300 ok=1
+Cmd: preprocess
+  insize=1026 outsize=355 ok=1
+Cmd: preprocess
+  insize=1156 outsize=431 ok=1
+Cmd: preprocess
+  insize=711 outsize=266 ok=1
+Cmd: preprocess
+  insize=5806 outsize=894 ok=1
+Cmd: preprocess
+  insize=5373 outsize=778 ok=1
+Cmd: preprocess
+  insize=555 outsize=363 ok=1
+Cmd: preprocess
+  insize=6723 outsize=952 ok=1
+Cmd: preprocess
+  insize=1523 outsize=528 ok=1
+Cmd: preprocess
+  insize=33409 outsize=270 ok=1
+Cmd: preprocess
+  insize=898 outsize=476 ok=1
+Cmd: preprocess
+  insize=5347 outsize=1767 ok=1
+Cmd: preprocess
+  insize=1073 outsize=1896 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7759 outsize=2746 kw=DIRECTIONAL LIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7759 outsize=1610 kw=DIRECTIONAL LIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5202 outsize=1966 kw=POINT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5202 outsize=1878 kw=POINT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4627 outsize=1990 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4627 outsize=918 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6791 outsize=2282 kw=LIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6791 outsize=854 kw=LIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7355 outsize=2814 kw=LIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7355 outsize=1322 kw=LIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4397 outsize=2282 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4397 outsize=778 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: preprocess
+  insize=6924 outsize=251 ok=1
+Cmd: preprocess
+  insize=4458 outsize=444 ok=1
+Cmd: preprocess
+  insize=4830 outsize=932 ok=1
+Cmd: preprocess
+  insize=1373 outsize=404 ok=1
+Cmd: preprocess
+  insize=5974 outsize=1284 ok=1
+Cmd: preprocess
+  insize=1014 outsize=392 ok=1
+Cmd: preprocess
+  insize=770 outsize=305 ok=1
+Cmd: preprocess
+  insize=692 outsize=317 ok=1
+Cmd: preprocess
+  insize=4267 outsize=1307 ok=1
+Cmd: preprocess
+  insize=3850 outsize=664 ok=1
+Cmd: preprocess
+  insize=851 outsize=294 ok=1
+Cmd: preprocess
+  insize=1331 outsize=291 ok=1
+Cmd: preprocess
+  insize=2135 outsize=1002 ok=1
+Cmd: preprocess
+  insize=5316 outsize=740 ok=1
+Cmd: preprocess
+  insize=1072 outsize=494 ok=1
+Cmd: preprocess
+  insize=1210 outsize=386 ok=1
+Cmd: preprocess
+  insize=553 outsize=259 ok=1
+Cmd: preprocess
+  insize=698 outsize=312 ok=1
+Cmd: preprocess
+  insize=5240 outsize=920 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8167 outsize=2342 kw=DIRECTIONAL LIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8167 outsize=3086 kw=DIRECTIONAL LIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5419 outsize=1966 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5419 outsize=1426 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5202 outsize=1966 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5202 outsize=1514 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
