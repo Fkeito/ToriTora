@@ -3,6 +3,7 @@ using System.Collections;
 
 public class DoorController : VRObjectBase {
 
+    public static DoorController door;
     public bool forAnimation;
 
     [Range(0, 3)]
@@ -22,6 +23,7 @@ public class DoorController : VRObjectBase {
     public Material off;
 
     public Animator anim;
+    public bool DebugClear=false;
 
 	void Start () {
         if (forAnimation)
@@ -32,6 +34,7 @@ public class DoorController : VRObjectBase {
             rend1.material = off;
             rend2.material = off;
             rend3.material = off;
+            door = this;
         }
         else
         {
@@ -53,6 +56,10 @@ public class DoorController : VRObjectBase {
                 if (anim.GetBool("clear")) anim.SetBool("clear", false);
             }
         }
+        if (DebugClear) Clear();
+        
+
+        
 	}
 
     void ChangeColor(int n)
@@ -102,14 +109,22 @@ public class DoorController : VRObjectBase {
 
     public void Pull()
     {
+        Debug.Log("a");
         if (anim.GetBool("pulling")) return;
+        Debug.Log("b");
         anim.SetBool("pulling", true);
-        EndingManager.endingManager.DoorOpen();
+
+        if (anim.GetBool("clear"))
+        {
+            EndingManager.endingManager.DoorOpen();
+            Debug.Log("c");
+        }
     }
 
     public void Clear()
     {
         gimmick++;
+        DebugClear = false;
     }
     public void Reset()
     {

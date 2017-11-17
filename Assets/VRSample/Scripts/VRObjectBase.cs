@@ -242,4 +242,13 @@ public abstract class VRObjectBase : MonoBehaviour {
             if (thro) Destroy(thro);
         }
     }
+    public virtual void OnDestroy()
+    {
+        if (transform.parent != null) {
+            if (Hand != null)
+            {
+                Hand.DetachObject(gameObject);
+            }
+        }
+    }
 }

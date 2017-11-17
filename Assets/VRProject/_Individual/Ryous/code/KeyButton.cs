@@ -60,11 +60,10 @@ public class KeyButton : VRObjectBase {
                 }
             }*/
      public  void Unlock()
-    {
+     {
         AudioManager.Main.PlayNewSound("clock-chimes-daniel_simon");
+        DoorController.door.Clear();
 
-        Debug.Log("Unlock");
-
-    }
+     }
 }
 

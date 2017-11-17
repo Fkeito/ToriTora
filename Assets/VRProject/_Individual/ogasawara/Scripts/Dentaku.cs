@@ -18,7 +18,8 @@ public class Dentaku : VRObjectBase {
         sound02 = audioSources[1];
     }
 
-    void Awake() {
+    public override void Awake() {
+        base.Awake();
         dentaku = this;
     }
 
@@ -47,7 +48,7 @@ public class Dentaku : VRObjectBase {
             index4 = index;
             if (index1 == 3 && index2 ==7 && index3 == 0 && index4 == 3)
             {
-                Debug.Log("正解！");
+                DoorController.door.Clear();
                 sound01.PlayOneShot(sound01.clip);
             }
             else
