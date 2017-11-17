@@ -15,9 +15,9 @@ public class Mizu : MonoBehaviour {
 // Update is called once per frame
    private  void OnCollisionEnter(Collision collision)
     {
-       if (collision.gameObject.name=="mizuhu-senn")
+       if (collision.gameObject.name== "mizuhu-senn") 
      {
-      
+            Debug.Log("na");
            var obj=(GameObject)Instantiate(explosionParticle, new Vector3(1, 3, -4), new Quaternion());
            
         
