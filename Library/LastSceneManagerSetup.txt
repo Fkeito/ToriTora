@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/VRProject/Scenes/EndingScene.unity
-  isLoaded: 1
-  isActive: 1

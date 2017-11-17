@@ -61,7 +61,9 @@ public class KeyButton : VRObjectBase {
             }*/
      public  void Unlock()
     {
-       Debug.Log("Unlock");
+        AudioManager.Main.PlayNewSound("clock-chimes-daniel_simon");
+
+        Debug.Log("Unlock");
 
     }
 }
