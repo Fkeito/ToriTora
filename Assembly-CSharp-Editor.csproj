@@ -63,6 +63,7 @@
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
      <None Include="Assets\VRSample\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+     <None Include="Assets\VRProject\_Individual\ogasawara\Ornamental Flower Set\Shaders\Transparent-BumpSpecNoCull.shader" />
      <None Include="Assets\VRSample\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>C:/Users/小笠原　悠太/Documents/ToriTora/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>

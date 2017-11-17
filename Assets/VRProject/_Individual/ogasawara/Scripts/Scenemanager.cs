@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Scenemanager : MonoBehaviour {
+public class Scenemanager : VRObjectBase {
     public string buttonTag = "Button";
     public Animator anima;
     void Update()
