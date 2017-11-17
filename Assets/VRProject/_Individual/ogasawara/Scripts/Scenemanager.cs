@@ -18,7 +18,7 @@ public class Scenemanager : VRObjectBase {
                 if (hit.collider.gameObject.CompareTag(buttonTag))
                 {
 
-                    hit.collider.gameObject.GetComponent<ButtonControl>().OnUserAction();
+                   // hit.collider.gameObject.GetComponent<ButtonControl>().OnUserAction();
 
                 }
             }
