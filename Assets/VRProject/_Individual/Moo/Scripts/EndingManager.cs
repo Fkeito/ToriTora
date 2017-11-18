@@ -39,7 +39,7 @@ public class EndingManager :VRObjectBase {
         HappyEnd = true;
     }
 
-    private void OnCollisionEnter(Collision other) {
+    private void OnTriggerEnter(Collider other) {
         if (DoorOpened)
         {
             if (!HappyEnd)

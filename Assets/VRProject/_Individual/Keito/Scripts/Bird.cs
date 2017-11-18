@@ -14,8 +14,8 @@ public class Bird : VRObjectBase {
 
     public bool inCage = true;//鳥が籠の中にいるか
     private bool flyFlag = true;//鳥が飛べるか
-    private bool isFly = false;//鳥が飛んでいるか
-    private bool isFlyBack = false;//鳥が戻ってきてるか
+    public bool isFly = false;//鳥が飛んでいるか
+    public bool isFlyBack = false;//鳥が戻ってきてるか
 
     private GameObject obj;//持ってきたいオブジェクト
     private VRObjectMode objMode;//持ってきたいオブジェクトのモード
@@ -257,7 +257,7 @@ public class Bird : VRObjectBase {
                     obj.transform.parent = this.transform;
                 }
             }
-            SetVRObjectMode(VRObjectMode.Grabable);
+            //SetVRObjectMode(VRObjectMode.Grabable);
 
             Rigidbody rigidbody = GetComponent<Rigidbody>();
             rigidbody.velocity = Vector3.zero;

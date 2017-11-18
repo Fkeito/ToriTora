@@ -4,7 +4,7 @@ using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 
-public class Sound
+public class Sound : MonoBehaviour
 {
     public AudioManager audioManager;
     public string name;

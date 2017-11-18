@@ -5,6 +5,8 @@ using Valve.VR.InteractionSystem;
 public class KeyButton : VRObjectBase {
    
     private Animator animator;
+    [SerializeField]
+    private GameObject doro;
     // Use this for initialization
     void Start () {
         animator = GetComponent<Animator>();
@@ -23,7 +25,7 @@ public class KeyButton : VRObjectBase {
                 animator.SetBool("pushed", true);
                 Debug.Log("トリガーを深く引いた");
                 animator.SetBool("pushed", false);
-                Unlock();
+                if(!doro)Unlock();
             }
             if (device1.GetTouchUp(SteamVR_Controller.ButtonMask.Trigger))
             {

@@ -6,23 +6,26 @@ using Valve.VR.InteractionSystem;
 /// <summary>
 /// VR内で持つことの出来るオブジェクトの基底クラス
 /// </summary>
-public abstract class VRObjectBase : MonoBehaviour {
+public abstract class VRObjectBase : MonoBehaviour
+{
 
     //抽象クラス
 
-    [SerializeField]private VRObjectMode VRObjectMode;
+    [SerializeField]
+    private VRObjectMode VRObjectMode;
 
-    [SerializeField]private bool UseGravity;
+    [SerializeField]
+    private bool UseGravity;
 
     [SerializeField]
     private float Mass;
 
 
     [SerializeField]
-    private string ObjectTag="VRItem";
+    private string ObjectTag = "VRItem";
 
     [SerializeField]
-    private bool Respawn=false;
+    private bool Respawn = false;
 
     //掴んだら起こるイベント
     [SerializeField]
@@ -48,43 +51,54 @@ public abstract class VRObjectBase : MonoBehaviour {
     [SerializeField]
     private UnityEvent onDetachedFromHand;
 
-    private Transform StartTransform;
+    private Vector3 StartPosition;
+    private Quaternion StartRotation;
 
     public Rigidbody rigidBody { get; set; }
 
     private Hand.AttachmentFlags attachmentFlags = Hand.defaultAttachmentFlags & (~Hand.AttachmentFlags.SnapOnAttach) & (~Hand.AttachmentFlags.DetachOthers);
 
-    public Hand Hand { get {
+
+    public Hand Hand
+    {
+        get
+        {
             var hand = transform.parent.gameObject.GetComponent<Hand>();
             if (hand == null)
             {
                 return null;
             }
-            else {
+            else
+            {
                 return hand;
             }
-        } }
+        }
+    }
 
-    public SteamVR_Controller.Device device {
+    public SteamVR_Controller.Device device
+    {
         get
         {
             if (Hand == null)
             {
                 return null;
             }
-            else {
+            else
+            {
                 return Hand.controller;
             }
         }
     }
-    
+
     public virtual void Awake()
     {
-        StartTransform = transform;
+        StartPosition = transform.position;
+        StartRotation = transform.rotation;
 
         var collider = GetComponent<Collider>();
-        if (collider==null) {
-            Debug.LogError(gameObject.name+"にColliderを付けてください。");
+        if (collider == null)
+        {
+            Debug.LogError(gameObject.name + "にColliderを付けてください。");
             return;
         }
 
@@ -102,7 +116,8 @@ public abstract class VRObjectBase : MonoBehaviour {
             }
             rigidBody.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
             rigidBody.useGravity = UseGravity;
-            if (Mass != 0) {
+            if (Mass != 0)
+            {
                 rigidBody.mass = Mass;
             }
 
@@ -137,28 +152,30 @@ public abstract class VRObjectBase : MonoBehaviour {
             ihe.onAttachedToHand = onAttachedToHand;
             ihe.onDetachedFromHand = onDetachedFromHand;
         }
-        else {
+        else
+        {
             DestroyImmediate(rigidBody);
         }
 
         GameObject system = GameObject.Find("System");
     }
 
-    public virtual void LateUpdate() {
+    public virtual void LateUpdate()
+    {
         if (Respawn)
         {
-            if (transform.position.y < -10) {
-                rigidBody.velocity = new Vector3();
-                rigidBody.angularVelocity = new Vector3();
-                transform.position = StartTransform.position;
-                transform.rotation = StartTransform.rotation;
-            }
+            rigidBody.velocity = new Vector3();
+            rigidBody.angularVelocity = new Vector3();
+            transform.position = StartPosition;
+            transform.rotation = StartRotation;
+
+            Respawn = false;
         }
     }
 
     public virtual void HandHoverUpdate(Hand hand)
     {
-        if (VRObjectMode==VRObjectMode.Attachable)
+        if (VRObjectMode == VRObjectMode.Attachable)
         {
             if (hand.GetStandardInteractionButtonDown() || ((hand.controller != null) && hand.controller.GetPressDown(Valve.VR.EVRButtonId.k_EButton_Grip)))
             {
@@ -203,7 +220,7 @@ public abstract class VRObjectBase : MonoBehaviour {
             {
                 rigidBody.mass = Mass;
             }
-            
+
             if (VRObjectMode == VRObjectMode.Grabable)
             {
                 //Throwable追加
@@ -244,7 +261,8 @@ public abstract class VRObjectBase : MonoBehaviour {
     }
     public virtual void OnDestroy()
     {
-        if (transform.parent != null) {
+        if (transform.parent != null)
+        {
             if (Hand != null)
             {
                 Hand.DetachObject(gameObject);

@@ -9,6 +9,8 @@ public class DoorController : VRObjectBase {
     [Range(0, 3)]
     private int gimmick;
 
+    private SoundController soundController;
+
     public GameObject light1;
     public GameObject light2;
     public GameObject light3;
@@ -26,6 +28,7 @@ public class DoorController : VRObjectBase {
     public bool DebugClear=false;
 
 	void Start () {
+        soundController = GetComponent<SoundController>();
         if (forAnimation)
         {
             rend1 = light1.GetComponent<Renderer>();
@@ -124,6 +127,7 @@ public class DoorController : VRObjectBase {
     public void Clear()
     {
         gimmick++;
+        soundController.Play();
         DebugClear = false;
     }
     public void Reset()
