@@ -16,6 +16,7 @@ public class EndingManager :VRObjectBase {
     [SerializeField] private Material alphamaterial;
     [SerializeField] private float changeTime;
     [SerializeField] private bool changing;
+    [SerializeField] private GameObject PlayRoom;
     private float changeSpeed;
     private void Start()
     {
@@ -63,6 +64,7 @@ public class EndingManager :VRObjectBase {
         hand1.hoverLayerMask = EndLayer;
         hand2.hoverLayerMask = EndLayer;
         alphaobj.SetActive(true);
+        PlayRoom.SetActive(false);
         EndingStart = true;
         changing = true;
     }
