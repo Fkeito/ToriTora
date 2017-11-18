@@ -33,8 +33,6 @@ public class EndingManager :VRObjectBase {
 
     public void DoorOpen() {
         DoorOpened = true;
-
-        endingEnvironment.SetActive(true);
     }
 
     private void HappyEndGet() {
@@ -49,6 +47,7 @@ public class EndingManager :VRObjectBase {
                 if (other.gameObject.tag == "Bird")
                 {
                     HappyEndGet();
+                    other.gameObject.layer = 20;
                 }
             }
         }
@@ -63,6 +62,7 @@ public class EndingManager :VRObjectBase {
         DebugCamera.clearFlags = CameraClearFlags.Skybox;
         hand1.hoverLayerMask = EndLayer;
         hand2.hoverLayerMask = EndLayer;
+        endingEnvironment.SetActive(true);
         alphaobj.SetActive(true);
         PlayRoom.SetActive(false);
         EndingStart = true;

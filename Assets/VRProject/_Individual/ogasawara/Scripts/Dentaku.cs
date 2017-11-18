@@ -3,6 +3,7 @@ using System.Collections;
 
 
 public class Dentaku : VRObjectBase {
+    private bool clear;
     public GameObject Time0, Time1, Time2, Time3;
     private bool time0,time1, time2, time3;
     public Material[] materials;
@@ -16,6 +17,7 @@ public class Dentaku : VRObjectBase {
         AudioSource[] audioSources = GetComponents<AudioSource>();
         sound01 = audioSources[0];
         sound02 = audioSources[1];
+        clear = false;
     }
 
     public override void Awake() {
@@ -46,9 +48,10 @@ public class Dentaku : VRObjectBase {
         {
             hyozi(Time3, index);
             index4 = index;
-            if (index1 == 3 && index2 ==4 && index3 == 0 && index4 == 8)
+            if (index1 == 3 && index2 ==4 && index3 == 0 && index4 == 8&&!clear)
             {
                 DoorController.door.Clear();
+                clear = true;
                 sound01.PlayOneShot(sound01.clip);
             }
             else
